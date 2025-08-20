@@ -107,3 +107,99 @@ header , main , footer  {
     justify-content: space-around;
     
 }
+
+/* product style */
+.item{
+    height: 476px;
+    width: 330px;
+    
+    
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    align-items: center;
+    gap: 15px;
+   
+}
+.main-title {
+    display: grid;
+    place-items: center;
+    color: #3A3A3A;
+    font-weight: 800;
+    font-size: 28px;
+}
+.product-name{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 5px;
+
+}
+.product-price{
+    font-size: 1.1;
+    font-weight: 400;
+
+}
+.product-rating{
+    margin: none;
+
+}
+.product-des{
+    color: rgb(139, 137, 137);
+    font-size: 1.2rem;
+
+}
+.item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    background: white;
+    margin: 0; /* Remove any margins */
+    width: 100%; /* Ensure it takes full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.item img,
+.item h3,
+.item p,
+.item span {
+    display: block;
+    margin-left: 0;
+    text-align: left;
+}
+
+ .see{
+    text-align: end;
+    margin-top: 20px;
+    color: #E02C6D;
+    
+ }
+
+ .features{
+    display: flex;
+    gap: 35px;
+    margin-top: 80px;
+    align-items: center;
+ }
+ .feature-des{
+    color: aliceblue;
+ }
+
+ .footer{
+    background-color: rgb(3, 3, 50);
+    text-align: center;
+    color: white;
+    height: 150px;
+    align-items: center;
+    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+ }
